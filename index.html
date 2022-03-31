@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+        <title>Cadastro</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <form action="#" autocomplete>
+                    <legend hidden>Cadastro de usuário</legend>
+
+                    <fieldset>
+                        <label for="name" hidden>Nome</label>
+                        <input type="text" name="nome" id="name" placeholder="Nome" required autofocus>
+
+                        <label for="username" hidden>Nome do usuário</label>
+                        <input type="text" name="usuario" id="username" placeholder="Nome de Usuário" required>
+
+                        <label for="email" hidden>Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+
+                        <label for="password" hidden>Senha</label>
+                        <input type="password" name="senha" id="password" placeholder="Senha" required>
+                    </fieldset>
+
+                    <button type="submit">Criar conta</button>
+                </form>
+
+                <p class="logintext">Já possui uma conta? <a href="#">Ir para login</a></p>
+            </div>
+        </main>
+    </body>
+
+</html>
